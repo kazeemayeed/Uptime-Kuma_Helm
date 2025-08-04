@@ -2,6 +2,6 @@ apiVersion: v2
 name: uptime-kuma
 description: A Helm chart to deploy Uptime-Kuma - a self-hosted monitoring service
 type: application
-version: 0.1.0
+version: 0.1.1
 appVersion: "1.23.13"
 
