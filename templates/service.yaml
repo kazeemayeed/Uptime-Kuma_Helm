@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "uptime-kuma.fullname" . }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: 3001
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ include "uptime-kuma.name" . }}
+
