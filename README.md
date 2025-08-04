@@ -105,7 +105,7 @@ Check persistent volume events if data isn’t saving.
 Use helm template to debug rendered manifests.
 Use kubectl describe for PVC, Pod, and Service issues.
 
- Author & Maintainer
+Author & Maintainer
 Kazeem Mohammed
 DevOps / SRE / Platform Engineer
 LinkedIn: 
